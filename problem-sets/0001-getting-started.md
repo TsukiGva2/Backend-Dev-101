@@ -8,7 +8,7 @@ Your app lives in `app/` in this repo. This problem set creates it.
 
 Pick a PHP branch that is still in **active support** on 2027-08-14 (the term end date) and install it with the method from PHP The Right Way's *Linux Setup*. Keep Debian's 8.4 if you like, but the app runs on your choice.
 
-In `app/README.md`, add a **PHP version** section: the branch you picked and why (cite the Supported Versions page), plus **three** backward-incompatible changes from that version's migration guide that could affect you, each in one sentence.
+In `app/README.md`, add a **PHP version** section: the branch you picked and why (cite the Supported Versions page), plus **three** backward-incompatible changes from that version's migration guide that could affect you, each in one sentence. "Affect you" means code you've already written (for example `Sac\Runtime`) or code the syllabus says this app will have. Name the concrete thing each change would hit.
 
 **Acceptance:**
 - `php -r 'echo PHP_MAJOR_VERSION, ".", PHP_MINOR_VERSION, PHP_EOL;'` prints the branch named in `app/README.md`.
